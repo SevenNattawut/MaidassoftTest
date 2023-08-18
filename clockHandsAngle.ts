@@ -1,4 +1,4 @@
-function getClockAngle(hh_mm:string):number {
+function getClockAngle(hh_mm: string): number {
     // assign hour and minute into 2 number variables
     let hh: number = Number(hh_mm.slice(0,2)) % 12;
     let mm: number = Number(hh_mm.slice(-2))

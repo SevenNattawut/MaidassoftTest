@@ -1,7 +1,7 @@
-function getHandScore(input:string):number {
-    let pts:number = 0;
+function getHandScore(input: string): number {
+    let pts: number = 0;
     let cards = new Map<string, number>();
-    let scoresSet:number[] = [0, 0, 0, 0]; // H, C, D, S
+    let scoresSet: number[] = [0, 0, 0, 0]; // H, C, D, S
 
     input.split(' ').forEach(card => {
         // 1-10: <card value> pts, J/Q/K : 10 pts, A: 11 pts
