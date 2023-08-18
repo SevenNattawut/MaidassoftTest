@@ -12,3 +12,8 @@ function getClockAngle(hh_mm: string): number {
 
     return angle;
 }
+
+// manual test
+let testVals: string[] = ["09:00", "12: 00", "08:59", "18:00", "17:30"];
+testVals.forEach(testVal => console.log(testVal + " => " + getClockAngle(testVal)));
+// 90, 0 , 84.5, 180, 15
