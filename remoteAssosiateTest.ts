@@ -20,3 +20,10 @@ function getQuestionPart(phrases: string[]): string[] {
 
     return phrases;
 }
+
+// manual test
+let testVals: string[][] = [["BEFRIEND", "FRIENDSHIP", "GIRLFRIEND"], ["SALTBAE", "KOSHER SALT", "SALTWATER"], ["DRAGONBALL", "FOOTBALL", "BASEBALL"]];
+testVals.forEach(testVal => console.log(testVal + " => " + getQuestionPart(testVal)));
+// BE,SHIP,GIRL
+// BAE,KOSHER,WATER
+// DRAGON,FOOT,BASE
