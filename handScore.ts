@@ -48,3 +48,4 @@ function getHandScore(input: string): number {
 // manual test
 let testVals: string[] = ["CA DA HA", "S8 S10 CA", "CK H3 S5", "DJ HJ CJ"];
 testVals.forEach(testVal => console.log(testVal + "=> " + getHandScore(testVal)));
+// 35, 18, 10, 32.5
